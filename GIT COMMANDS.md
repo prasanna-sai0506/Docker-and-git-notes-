@@ -24,6 +24,19 @@
 12. **git remote add origin <repository\_url>  --> To attach the repository to the project folder.**
 13. **git remote -v --> Displays all the URL attached to the project directory or folder.**
 14. **git push origin main/master --> used to push all the changed files into the git hub repository to the master or main branch.**
+15. **git branch <branch_name>: This command is used to create a new branch.**
+16.	**git branch: this command is used to check the number of origins present in the initialized repository.**
+17.	**git checkout <branch_name>: this command is used to point the header to the created branch. **
+18.	**git merge <branch_name>: this command is used to merge the committed changes on the other branch to the main branch.**
+19. **Note: For in git hub is used to copy the project folder or repository of any public user to our account. we cannot make changes to any other account directly so we need to fork the project **
+20.	**git clone <Repository_url>: used to clone the project repository.**
+21.	**git remote add upstream <forked_url> : this command is used to add the forked URL to the project.**
+22.	**git fetch --all --prune: Used to fetch references from all remotes while cleaning up deleted remote tracking branches.**
+23.	**git push origin <branch name> -f:This command is used to force push the contents into the branch.**
+24.	**Git reset --hard upstream/main: forcrs the current local branch to match the exat state of the upstream or main branch.**
+25.	**Git pull upstream main: git fetch and git pull does the same thing.**
+26. **Git rebase -i <hash id> : This is used to merge the multiple commits into the one commit  by converting then into squash and pick.** 
+
 
 &#x20;
 

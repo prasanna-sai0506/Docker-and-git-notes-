@@ -305,7 +305,7 @@
 
 
 
-###### **How to publish our docker image in the docker image:**
+###### **How to publish our docker image in the docker hub:**
 
 * **to make the image available to the public or private we need to create the repository in the docker hub and we need to push in to the repository.**
 * **docker build -t <user/repositoryname> . : This command is used to build the docker image in the docker hub. we will execute this command in the terminal from the application path. For example if i am having my node.js application in testapp directory we will open terminal in that directory and detects the docker file and build the image.**
